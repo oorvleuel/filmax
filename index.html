@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmax</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+    <link rel="stylesheet" href="https://cdnjs.cloudfair.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/style.min.css">
+    <script src="https://cdnjs.cloudfair.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudfair.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a class="logo" href="">
+                <span>F</span>
+                <span>I</span>
+                <span>L</span>
+                <span>M</span>
+                <span>A</span>
+                <span>X</span>
+            </a>
+            <div class="nav-toggle"><span></span></div>
+            <form action="" method="get" id="searchform">
+            <input type="text" placeholder="Искать на сайте...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <ul id="menu">
+                <li><a href="Поддержка"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="posts-list">
+            <article id="post-1" class="post">
+                <div class="post-image"><a href=""><img src="https://wallerpapers-fenix.eu/full/160516/084130487.jpg"></a></div>
+                <div class="post-content">
+                    <div class="category"><a href="">Filmax</a></div>
+                    <h2 class="post-title">Сохраняйте лучшие моменты своей жизни с камерой моментальной печати Filmax</h2>
+                    <p>Официальный интернет-иагазин легендарной фототехники и фото-фксессуаров от британского производителя</p>
+                    <div class="poster-footer">
+                        <a class="more-link" href="">Продолжить чтение</a>
+                    </div>
+                </div>
+            </article>
+        <article id="post-2" class="post">
+          ...
+        </article>
+    </div>
+
+    <aside>
+        <div class="widget">
+            <h3 class="widget-title">Меню</h3>
+            <ul class="widget-category-list">
+                <li><a href="">Камеры</a> (120..)</li>
+                <li><a href="">Принтеры</a> (90)</li>
+                <li><a href="">Видео</a> (100..)</li>
+            </ul>
+        </div>
+        <div class="widget">
+            <h3 class="widget-title">Бестселлеры</h3>
+            <ul class="widget-posts-list">
+                <li>
+                    <div class="post-image-small">
+                        <a href=""><img src="https://resize.yandex.net/imgs_touch?key=dd5f3c7c2574713d245549902dfb04e1&url=https%3A%2F2Fget.wallhere.com%2Fphoto%2F2048x1365-px-camera-fall-leaves-plants-1415601.jpg&width=1242&height=827&typemap=png%3Apng%3B*%3Ajpg&quality=60&use-cache-headers=yes&crop=no&enlarge=no"></a>
+                    </div>
+                    <h4 class="widget-post-title">Filmax Hello: 5900</h4>
+                </li>
+                <li>
+                    <div class="post-image-small">
+                        <a href=""><img src="https://avatars.mds.yandex.net/i?id=87be2180f655ed903f0e1eef68500c6e_l-7801542-images-thumbs&n=33&w=1472&h=828&q=60"></a>
+                    </div>
+                    <h4 class="widget-post-title">Filmax Start: 6900</h4>
+                </li>
+                <li>
+                    <div class="post-image-small">
+                        <a href=""><img src="https://avatars.mds.yandex.net/i?id=d41c370cc4b7a1c4b25fc9a2cab97774_l-5233591-images-thumbs&n=33&w=1297&h=828&q=60"></a>
+                    </div>
+                    <h4 class="widget-post-title">Filmax Option: 8900</h4>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col"><span>©</span></div>
+            <div class="footer-col">
+                <div class="social-bar-wrap">
+                    <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a title="VK" href="" target="_blank"><i class="fa fa-vk"></i></a>
+                </div>
+                <div class="footer-col">
+                    <a href="mailto:admin@yoursite.ru">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            $('.nav-toogle').on('click', function() {
+                $('#menu').toogleClass('active');
+            })
+        </script>
+
+        <script>
+            $('.nav-toggle').on('click', function(){
+            $('#menu').toggleClass('active');
+            });
+        </script>
+</body>
+</html>
