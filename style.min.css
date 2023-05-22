@@ -73,11 +73,11 @@ header {
 }
 
 .logo span:nth-child(odd) {
-    background: #EF5A42;
+    background: black;
 }
 
 .logo span:nth-child(even) {
-    background: #F8B763;
+    background: black;
 }
 
 #menu {
@@ -99,7 +99,7 @@ header {
 }
 
 #menu a:hover {
-    color: #EF5A42;
+    color: black;
 }
 
 #menu li:last-child {
@@ -131,7 +131,7 @@ header {
     border: none;
     position: absolute;
     right: 10px;
-    color: #EF5A42;
+    color: black;
     cursor: pointer;
     font-size: 18px;
 }
@@ -147,7 +147,7 @@ header {
     width: 40px;
     height: 40px;
     margin-left: 20px;
-    background: #EF5A42;
+    background: black;
     cursor: pointer;
 }
 
@@ -207,7 +207,7 @@ header {
 }
 
 .category a {
-    color: #F8B763;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -264,7 +264,7 @@ header {
  .post-social a {
     display: inline-block;
     margin-left: 8px;
-    color: #F8B763;
+    color: black;
     width: 25px;
     height: 25px;
     line-height: 23px;
@@ -291,14 +291,14 @@ header {
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
-    border: 2px solid #F8B763;
-    box-shadow: 3px 3px 0 0 #F8B763;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0 0 black;
  }
 
  .widget-category-list li {
     border-bottom: 1px solid #EBEBE3;
     padding: 10px 0;
-    color: #c6c6c6;
+    color: #626262;
     font-style: italic;
  }
 
@@ -317,12 +317,12 @@ header {
     display: inline-block;
     font-family: 'FontAwesome';
     margin-right: 10px;
-    color: #c6c6c6;
+    color: #626262;
  }
 
  .widget-posts-list li {
     border-top: 1px solid #EBEBE3;
-    padding: 15px 0;
+    padding: 30px 0;
  }
 
  .widget-posts-list li:nth-child(1) {
@@ -330,7 +330,7 @@ header {
  }
 
  .post-image-small {
-    width: 30%;
+    width: 11%;
     float: left;
     margin-right: 15px;
  }
@@ -339,120 +339,4 @@ header {
     float: left;
  }
 
- footer {
-    padding: 30px 0;
-    background: #3C3D41;
-    color: white;
- }
-
- .footer-col {
-    width: 33.3333333333%;
-    float: left;
- }
-
- .footer-col a {
-    color: white;
- }
-
- .footer-col:last-child {
-    text-align: right;
- }
-
- .social-bar-wrap {
-    text-align: center;
- }
-
- .social-bar-wrap a {
-    padding: 0 7px;
-    font-size: 18px;
- }
-
- @media (max-width: 768px) {
-    .nav-toggle {
-       display: block;
-    }
-
-    header {
-       padding: 10px 0;
-    }
-
-    #menu {
-       max-height: 0;
-       background: white;
-       float: none;
-       position: absolute;
-       overflow: hidden;
-       top: 63px;
-       right: 0;
-       left: 0;
-       margin: 0;
-       padding: 0;
-       z-index: 3;
-    }
-    
-    #menu li {
-       display: block;
-       text-align: center;
-       border-bottom: 1px solid #EBEBE3;
-       margin-right: 0;
-    }
-   
-    .posts-list, aside {
-       width: 100%;
-       float: none;
-    }
-
-    .widget-post-title {
-       font-size: 1.5em;
-    }
- }
  
- @media (max-width: 480px) {
-    .logo {
-       float: none;
-       margin: 0 auto 15px;
-       display: table;
-    }
-
-    .logo span {
-       margin: 0 2px;
-    }
-    
-    #menu {
-       top: 118px;
-    }
-   
-    #searchform {
-       float: left;
-       margin-left: 0;
-    }
-   
-    .post-footer {
-       border-top: none;
-       border-bottom: none;
-       text-align: center;
-    }
-   
-    .post-social {
-       position: static;
-       text-align: center;
-       transform: none;
-       margin-top: 20px;
-    }
-
-    .widget-post-title {
-       font-size: 1.2em;
-    }
-   
-    .footer-col {
-       float: none;
-       margin-bottom: 20px;
-       width: 100%;
-       text-align: center;
-    }
-
-    .footer-col:last-child {
-       text-align: center;
-       margin-bottom: 0;
-    }
- }
